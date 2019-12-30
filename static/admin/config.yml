@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: aslamsk/testing-new-blog
+  repo: aslamsk/testig-new-blog
 media_folder: static/assets
 public_folder: assets
 collections:
