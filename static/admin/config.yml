@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: aslamsk/testig-new-blog
-media_folder: content/posts
+media_folder: posts
 public_folder: assets
 collections:
   - name: content/posts
