@@ -4,7 +4,7 @@ backend:
 media_folder: posts
 public_folder: assets
 collections:
-  - name: content/posts
+  - name: posts
     label: Blog
     folder: blog
     create: true
