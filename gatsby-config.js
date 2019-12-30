@@ -37,7 +37,7 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        basePath: "/",
+        basePath: "/posts",
         authorsPage: true,
         sources: {
           local: true,
@@ -50,12 +50,13 @@ module.exports = {
       options: {
         name: `Novela by Narative`,
         short_name: `Novela`,
-        start_url: `/`,
+        start_url: `/posts`,
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
       },
     },
+    `gatsby-plugin-netlify-cms`
   ],
 };
